@@ -7,45 +7,45 @@ build_property.InvariantGlobalization =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = RazorApp
 build_property.RootNamespace = RazorApp
-build_property.ProjectDir = C:\Users\Faye Wong\Documents\Side project\RazorApp\
+build_property.ProjectDir = C:\Users\Faye Wong\Documents\Side project\Github\RazorApp\
 build_property.RazorLangVersion = 5.0
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Faye Wong\Documents\Side project\RazorApp
+build_property.MSBuildProjectDirectory = C:\Users\Faye Wong\Documents\Side project\Github\RazorApp
 build_property._RazorSourceGeneratorDebug = 
 build_property._RazorSourceGeneratorHeapDumps = 
 
-[c:/Users/Faye Wong/Documents/Side project/RazorApp/Areas/Identity/Pages/_ViewStart.cshtml]
+[c:/Users/Faye Wong/Documents/Side project/Github/RazorApp/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Faye Wong/Documents/Side project/RazorApp/Pages/Error.cshtml]
+[c:/Users/Faye Wong/Documents/Side project/Github/RazorApp/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Faye Wong/Documents/Side project/RazorApp/Pages/Index.cshtml]
+[c:/Users/Faye Wong/Documents/Side project/Github/RazorApp/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Faye Wong/Documents/Side project/RazorApp/Pages/Privacy.cshtml]
+[c:/Users/Faye Wong/Documents/Side project/Github/RazorApp/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Faye Wong/Documents/Side project/RazorApp/Pages/Shared/_Layout.cshtml]
+[c:/Users/Faye Wong/Documents/Side project/Github/RazorApp/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Faye Wong/Documents/Side project/RazorApp/Pages/Shared/_LoginPartial.cshtml]
+[c:/Users/Faye Wong/Documents/Side project/Github/RazorApp/Pages/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Faye Wong/Documents/Side project/RazorApp/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[c:/Users/Faye Wong/Documents/Side project/Github/RazorApp/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Faye Wong/Documents/Side project/RazorApp/Pages/_ViewImports.cshtml]
+[c:/Users/Faye Wong/Documents/Side project/Github/RazorApp/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Faye Wong/Documents/Side project/RazorApp/Pages/_ViewStart.cshtml]
+[c:/Users/Faye Wong/Documents/Side project/Github/RazorApp/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope =

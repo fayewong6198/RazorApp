@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Faye Wong\\Documents\\Side project\\RazorApp\\RazorApp.csproj": {}
+    "C:\\Users\\Faye Wong\\Documents\\Side project\\Github\\RazorApp\\RazorApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Faye Wong\\Documents\\Side project\\RazorApp\\RazorApp.csproj": {
+    "C:\\Users\\Faye Wong\\Documents\\Side project\\Github\\RazorApp\\RazorApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Faye Wong\\Documents\\Side project\\RazorApp\\RazorApp.csproj",
+        "projectUniqueName": "C:\\Users\\Faye Wong\\Documents\\Side project\\Github\\RazorApp\\RazorApp.csproj",
         "projectName": "RazorApp",
-        "projectPath": "C:\\Users\\Faye Wong\\Documents\\Side project\\RazorApp\\RazorApp.csproj",
+        "projectPath": "C:\\Users\\Faye Wong\\Documents\\Side project\\Github\\RazorApp\\RazorApp.csproj",
         "packagesPath": "C:\\Users\\Faye Wong\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Faye Wong\\Documents\\Side project\\RazorApp\\obj\\",
+        "outputPath": "C:\\Users\\Faye Wong\\Documents\\Side project\\Github\\RazorApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Faye Wong\\AppData\\Roaming\\NuGet\\NuGet.Config",
