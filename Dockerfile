@@ -16,7 +16,9 @@ RUN dotnet publish -c release -o /app --no-restore
 FROM mcr.microsoft.com/dotnet/core/aspnet:3.1
 WORKDIR /app
 COPY --from=build /app ./
+ENV ASPNETCORE_URLS=http://+:8080
 EXPOSE 80
+EXPOSE 8080
 
-ENTRYPOINT ["dotnet", "aspnetapp.dll", "--server.urls", "https://+:8080"]
+ENTRYPOINT ["dotnet", "aspnetapp.dll"]
 
