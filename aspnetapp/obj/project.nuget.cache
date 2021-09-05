@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "+AAtx7UIRYE13mLv4iYEvT3cFQj0vLuV7Sv4DZmDooIhoCEfozUVvinI1e/5lmo3/7n5W+hRmZf4O7pCoyMNdw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Faye Wong\\Documents\\Side project\\Github\\RazorApp\\aspnetapp\\aspnetapp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Faye Wong\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.15\\microsoft.netcore.app.host.win-x64.3.1.15.nupkg.sha512"
+  ],
+  "logs": []
+}
