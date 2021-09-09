@@ -20,8 +20,8 @@ namespace aspnetapp
 
                 using (var scope = host.Services.CreateScope())
                 {
-                    var db = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
-                    db.Database.Migrate();
+                    // var db = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
+                    // db.Database.Migrate();
                 }
 
                 host.Run();
