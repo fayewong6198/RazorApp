@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "RuWRy0dIi5cSVM8FV+MPqebcRLizDNinKsIe+SBXNeFY5xW4HyfFb4Gc7BHRNFIIQA3Kb1x0F2EdFSbuBDskoA==",
+  "dgSpecHash": "f9k+tgafGw7egI1pXhWIYPqK7NP1Kx0R2/DHpknxY7U+1Y2HLz9/r0auM6n6yPgmSdpTHZnNxmOQ1pTgny1glQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Faye Wong\\Documents\\Side project\\Github\\RazorApp\\aspnetapp\\aspnetapp.csproj",
   "expectedPackageFiles": [
@@ -73,6 +73,8 @@
     "C:\\Users\\Faye Wong\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\Faye Wong\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",
     "C:\\Users\\Faye Wong\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512",
+    "C:\\Users\\Faye Wong\\.nuget\\packages\\npgsql\\5.0.7\\npgsql.5.0.7.nupkg.sha512",
+    "C:\\Users\\Faye Wong\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\5.0.7\\npgsql.entityframeworkcore.postgresql.5.0.7.nupkg.sha512",
     "C:\\Users\\Faye Wong\\.nuget\\packages\\runtime.native.system\\4.3.0\\runtime.native.system.4.3.0.nupkg.sha512",
     "C:\\Users\\Faye Wong\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.0.4\\sqlitepclraw.bundle_e_sqlite3.2.0.4.nupkg.sha512",
     "C:\\Users\\Faye Wong\\.nuget\\packages\\sqlitepclraw.core\\2.0.4\\sqlitepclraw.core.2.0.4.nupkg.sha512",
