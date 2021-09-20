@@ -33,7 +33,7 @@ namespace aspnetapp
         services.AddCors(o => o.AddPolicy(MyAllowSpecificOrigins, builder =>
         {
               builder.WithOrigins("http://localhost:5000",
-                        "http://www.contoso.com")
+                        "https://aspdotnetblazor-dxgf2.ondigitalocean.app")
                         .AllowAnyHeader()
                         .AllowAnyMethod();
         }));
