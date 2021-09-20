@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using aspnetapp.Models;
 
 namespace aspnetapp.Data
 {
@@ -12,5 +13,9 @@ namespace aspnetapp.Data
             : base(options)
         {
         }
+
+         public DbSet<Feed> Feed { get; set; }
+         public DbSet<FeedItem> FeedItem { get; set; }
+
     }
 }

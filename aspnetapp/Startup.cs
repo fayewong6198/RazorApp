@@ -18,6 +18,7 @@ namespace aspnetapp
 {
     public class Startup
     {
+          readonly string MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
@@ -28,6 +29,14 @@ namespace aspnetapp
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+             // Add Cors
+        services.AddCors(o => o.AddPolicy(MyAllowSpecificOrigins, builder =>
+        {
+              builder.WithOrigins("http://localhost:5000",
+                        "http://www.contoso.com")
+                        .AllowAnyHeader()
+                        .AllowAnyMethod();
+        }));
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseNpgsql(
                     Configuration.GetConnectionString("DefaultConnection")));
@@ -64,6 +73,7 @@ namespace aspnetapp
             app.UseStaticFiles();
 
             app.UseRouting();
+            app.UseCors(MyAllowSpecificOrigins);
 
             app.UseAuthentication();
             app.UseAuthorization();
@@ -71,6 +81,8 @@ namespace aspnetapp
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapRazorPages();
+                endpoints.MapControllers();
+
             });
         }
     }
