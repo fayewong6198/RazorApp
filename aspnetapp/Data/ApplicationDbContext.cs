@@ -7,7 +7,7 @@ using aspnetapp.Models;
 
 namespace aspnetapp.Data
 {
-    public class ApplicationDbContext : IdentityDbContext
+    public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
             : base(options)
@@ -16,6 +16,8 @@ namespace aspnetapp.Data
 
          public DbSet<Feed> Feed { get; set; }
          public DbSet<FeedItem> FeedItem { get; set; }
+         public DbSet<ApplicationUser> ApplicationUser { get; set; }
+
 
     }
 }

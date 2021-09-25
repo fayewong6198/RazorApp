@@ -25,7 +25,7 @@ namespace aspnetapp.Controllers_API_Blazor
         [HttpGet]
         public async Task<ActionResult<IEnumerable<FeedItem>>> GetFeedItem()
         {
-            return await _context.FeedItem.ToListAsync();
+            return await _context.FeedItem.OrderBy(o => o.Id).ToListAsync();
         }
 
         // GET: api/FeedItems/5
