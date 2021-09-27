@@ -17,6 +17,8 @@ namespace aspnetapp.Data
          public DbSet<Feed> Feed { get; set; }
          public DbSet<FeedItem> FeedItem { get; set; }
          public DbSet<ApplicationUser> ApplicationUser { get; set; }
+         public DbSet<ApplicationUserToken> ApplicationUserToken { get; set; }
+
 
 
     }
