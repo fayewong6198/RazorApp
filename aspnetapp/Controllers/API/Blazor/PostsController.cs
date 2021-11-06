@@ -25,34 +25,38 @@ namespace aspnetapp.Controllers_API_Blazor
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Post>>> GetPost()
         {
-            return await _context.Post.ToListAsync();
+            return await _context.Post.OrderBy(d => d.Id).ToListAsync();
         }
 
         // GET: api/Posts/5
         [HttpGet("{id}")]
         public async Task<ActionResult<Post>> GetPost(int id)
         {
-            var feed = await _context.Post.FindAsync(id);
+            var post = await _context.Post.FindAsync(id);
 
-            if (feed == null)
+            if (post == null)
             {
                 return NotFound();
             }
 
-            return feed;
+            return post;
         }
 
         // PUT: api/Posts/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutPost(int id, Post feed)
+        public async Task<IActionResult> PutPost(int id, Post post)
         {
-            if (id != feed.Id)
-            {
-                return BadRequest();
+            Console.WriteLine(id);
+            var record = await _context.Post.Where(d => d.Id == id).FirstOrDefaultAsync();
+
+            if (record == null) {
+                Console.WriteLine("bad request");
+                return NotFound();
             }
 
-            _context.Entry(feed).State = EntityState.Modified;
+            record.Title = post.Title;
+            Console.WriteLine("not bad request");
 
             try
             {
@@ -60,14 +64,7 @@ namespace aspnetapp.Controllers_API_Blazor
             }
             catch (DbUpdateConcurrencyException)
             {
-                if (!PostExists(id))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
+                throw;
             }
 
             return NoContent();
@@ -76,25 +73,24 @@ namespace aspnetapp.Controllers_API_Blazor
         // POST: api/Posts
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        public async Task<ActionResult<Post>> PostPost(Post feed)
+        public async Task<ActionResult<Post>> PostPost(Post post)
         {
-            _context.Post.Add(feed);
-            await _context.SaveChangesAsync();
+            _context.Post.Add(post);
 
-            return CreatedAtAction("GetPost", new { id = feed.Id }, feed);
+            return CreatedAtAction("GetPost", new { id = post.Id }, post);
         }
 
         // DELETE: api/Posts/5
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeletePost(int id)
         {
-            var feed = await _context.Post.FindAsync(id);
-            if (feed == null)
+            var post = await _context.Post.FindAsync(id);
+            if (post == null)
             {
                 return NotFound();
             }
 
-            _context.Post.Remove(feed);
+            _context.Post.Remove(post);
             await _context.SaveChangesAsync();
 
             return NoContent();
